@@ -1,0 +1,30 @@
+{
+  "name": "js-training-tasks",
+  "private": "true",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Tasks to learn javascript from Checkio, Codewars, Leetcode etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PonkinDmitrij/js-training-tasks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PonkinDmitrij/js-training-tasks/issues"
+  },
+  "homepage": "https://github.com/PonkinDmitrij/js-training-tasks#readme",
+  "devDependencies": {
+    "eslint": "^8.3.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.0"
+  }
+}
