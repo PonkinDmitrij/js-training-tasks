@@ -11,10 +11,8 @@
  * @returns {number[][]} List of two lists.
  */
 const splitList = (arr) => {
-  return [
-    arr.slice(0, Math.ceil(arr.length / 2)),
-    arr.slice(Math.ceil(arr.length / 2)),
-  ];
+  const n = Math.ceil(arr.length / 2);
+  return [arr.slice(0, n), arr.slice(n)];
 };
 
 export { splitList };
